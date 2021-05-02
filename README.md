@@ -114,3 +114,8 @@ I also then tested two ensemble classifier models to determine their accuracy, p
     - Low Risk Recall Score: 0.94
 
     ![ada_report](Resources/6_adaboost_report.png)
+
+## Summary
+
+In general, all the resampling models performed more poorly than the two ensemble classifier models, with resampling models all having lower accuracy, precision, and recall scores than the the ensemble classifier models.  Of the two ensemble methods, the Easy Ensemble Classifier Model would be the best choice of these models to use in predicting future risk for future applicants.  The Easy Ensemble Classifier Model had the highest Accuracy Score at .931, but more importantly, it had the highest Recall scores for High Risk and Low Risk.  In this case, the Recall score for High Risk class is the most telling statistic.  Because the large majority of cases are low risk, having an overall accuracy score could be achieved by predicting many cases as low risk, and identifying very few if any actual high risk cases.  Having a strong High Risk Recall Score shows that the Easy Ensemble Classifier Model will identify 92% of the high risk cases.  Additionaly, the Low Risk Recall Score for this model is strong, indicating that the model will not false deny loans to very many applicants who are not high risk.  Thus this model will best identify which applicants to turn down for a loan without sacrificing the oppurtunity to approve worthy applicants.
+
