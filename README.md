@@ -21,7 +21,7 @@ I also then tested two ensemble classifier models to determine their accuracy, p
 
     - Accuracy Score: 0.66
     
-    ![ros accuracy](Resources/ros_accuracy.png)
+    ![ros accuracy](Resources/1_ros_accuracy.png)
 
     - High Risk Precision Score: 0.01
 
@@ -32,3 +32,53 @@ I also then tested two ensemble classifier models to determine their accuracy, p
     - Low Risk Recall Score: 0.64
 
     ![ros_report](Resources/1_ros_report.png)
+
+- Oversampling with SMOTE Model
+
+    - Accuracy Score: 0.655
+    
+    ![smote accuracy](Resources/2_smote_accuracy.png)
+
+    - High Risk Precision Score: 0.01
+
+    - Low Risk Precision Score: 1.00
+
+    - High Risk Recall Score: 0.61
+
+    - Low Risk Recall Score: 0.70
+
+    ![smote_report](Resources/2_smote_report.png)
+
+- Undersampling with Clustered Centroid Model
+
+    - Accuracy Score: 0.545
+    
+    ![cc accuracy](Resources/3_cc_accuracy.png)
+
+    - High Risk Precision Score: 0.01
+
+    - Low Risk Precision Score: 1.00
+
+    - High Risk Recall Score: 0.69
+
+    - Low Risk Recall Score: 0.40
+
+    ![cc_report](Resources/3_cc_report.png)
+
+- Combined Over/Undersampling with SMOTEENN Model
+
+    - Accuracy Score: 0.642
+    
+    ![smoteen accuracy](Resources/4_smoteen_accuracy.png)
+
+    - High Risk Precision Score: 0.01
+
+    - Low Risk Precision Score: 1.00
+
+    - High Risk Recall Score: 0.71
+
+    - Low Risk Recall Score: 0.57
+
+    ![smoteenn_report](Resources/4_smoteen_report.png)
+
+    ### Ensemble
