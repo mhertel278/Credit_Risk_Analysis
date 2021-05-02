@@ -15,9 +15,9 @@ I also then tested two ensemble classifier models to determine their accuracy, p
 
 ## Results
 
-### Resampling Models
+### Resampling Models Results
 
-- Random Oversampling Model
+- Random Oversampling Model Results
 
     - Accuracy Score: 0.66
     
@@ -33,7 +33,7 @@ I also then tested two ensemble classifier models to determine their accuracy, p
 
     ![ros_report](Resources/1_ros_report.png)
 
-- Oversampling with SMOTE Model
+- Oversampling with SMOTE Model Results
 
     - Accuracy Score: 0.655
     
@@ -49,7 +49,7 @@ I also then tested two ensemble classifier models to determine their accuracy, p
 
     ![smote_report](Resources/2_smote_report.png)
 
-- Undersampling with Clustered Centroid Model
+- Undersampling with Clustered Centroid Model Results
 
     - Accuracy Score: 0.545
     
@@ -65,7 +65,7 @@ I also then tested two ensemble classifier models to determine their accuracy, p
 
     ![cc_report](Resources/3_cc_report.png)
 
-- Combined Over/Undersampling with SMOTEENN Model
+- Combined Over/Undersampling with SMOTEENN Model Results
 
     - Accuracy Score: 0.642
     
@@ -81,4 +81,36 @@ I also then tested two ensemble classifier models to determine their accuracy, p
 
     ![smoteenn_report](Resources/4_smoteen_report.png)
 
-    ### Ensemble
+### Ensemble Classifier Models Results
+    
+- Balanced Random Forest Classifier Model Results
+
+    - Accuracy Score: 0.789
+    
+    ![rfor accuracy](Resources/5_rfor_accuracy.png)
+
+    - High Risk Precision Score: 0.03
+
+    - Low Risk Precision Score: 1.00
+
+    - High Risk Recall Score: 0.70
+
+    - Low Risk Recall Score: 0.87
+
+    ![rfor_report](Resources/5_rfor_report.png)
+
+- Easy Ensemble Classifier Model Results
+
+    - Accuracy Score: 0.931
+    
+    ![ada accuracy](Resources/6_adaboost_accuracy.png)
+
+    - High Risk Precision Score: 0.09
+
+    - Low Risk Precision Score: 1.00
+
+    - High Risk Recall Score: 0.92
+
+    - Low Risk Recall Score: 0.94
+
+    ![ada_report](Resources/6_adaboost_report.png)
